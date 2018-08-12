@@ -1,6 +1,6 @@
-var  answer = prompt("каково официальное название JavaScript?",'');
-if (answer == 'EcmaScript'){
+var answer = prompt("каково официальное название JavaScript?", '');
+if (answer == 'EcmaScript') {
     alert("Верно!")
-}else{
+} else {
     alert('Не знаете? EcmaScript !');
 }
