@@ -5,4 +5,5 @@ function min(a,b){
         return b;
     }
 }
+
 alert(min(4,5));
