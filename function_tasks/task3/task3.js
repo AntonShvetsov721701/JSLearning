@@ -8,7 +8,7 @@ function pow(x,n){
     return result;
 }
 
-var x = prompt('Input x',''), 
-    n = prompt('Input n','');
+var x = prompt('Input x','');
+var n = prompt('Input n','');
 
 alert(pow(x,n));
