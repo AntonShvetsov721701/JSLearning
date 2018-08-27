@@ -1,19 +1,14 @@
 var browser = prompt('Input your browser','');
-if (browser === 'IE' 
-    || browser === 'Chrome' 
-    || browser === 'Firefox' 
-    || browser === 'Safari' 
-    || browser === 'Opera'){
+var browserNames = ['IE','Chrome','Firefox','Safari','Opera'];
+
+if (browserNames.includes(browser)){
     
     if (browser === 'IE'){
         alert('Yor browser is IE!');
-    }
-    if (browser === 'Chrome' 
-        || browser === 'Firefox' 
-        || browser === 'Safari' 
-        || browser === 'Opera'){
+    } else {
         alert('Yes, and we support these browsers')
     }
-}else{
+    
+} else {
     alert('We hope that everything in your browser is OK too!')
 }
