@@ -14,7 +14,7 @@ function sumRec(n){
 
 
 function sumArithProgres(n){
-    return (2*n - (n - 1))/2*n;
+    return (2 * n - (n - 1)) / 2 * n;
 }
 
 var number = prompt('Input n','');
@@ -30,7 +30,7 @@ outside :while(true){
             break;
         
         case '2': 
-            alert('Result = ' + sumRec(100));
+            alert('Result = ' + sumRec(+number));
             break;
 
         case '3': 
