@@ -16,3 +16,10 @@ function isPalindrome(s){
   return result;
 }
 console.log(isPalindrome(str))
+//
+function palindrom(str){
+  str = str.toLowerCase().replace(/\s+/g, '')
+  return str === str
+  .replace(/\s+/g, '').split('').reverse().concat().join('')
+}
+console.log(palindrom('C bc'))
